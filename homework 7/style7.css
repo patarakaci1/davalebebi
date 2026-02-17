@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(145, 146, 146);
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1{
+   
+    margin-left: 20px;
+
+}
+p{
+    display: inline-block;
+}
+header p{
+    width: 56px;
+  height: 56px;
+  background-color: #A53DFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+
+
+}
+.label{
+    display:flex;
+    align-items: center;
+}
+.contact{
+    background-color: #A53DFF;
+    padding:12px 24px;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+}
+
+.row1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px ;
+}
+.par1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.rows{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 30px;
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img1{
+    max-width: 100%;
+    width: 536px;
+    background-color: white;
+    border-radius: 16px;
+ 
+}
+.card{
+   margin-top: 20px;
+   background-color: rgb(230, 199, 230);
+    padding: 10px 30px;
+    ;
+    
+}
+.card h2{
+    margin-bottom: 5px;
+}
+.img2{
+    
+    width: 424px;
+    background-color: lightgrey;
+    border-radius: 16px;
+}
+.row2{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px ;
+    background-color: white;
+    
+}
+.i_am{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+.download{
+     background-color: white;
+    padding:12px 24px;
+    border-radius: 4px;
+    color: #A53DFF;
+    display: inline-block;
+    border: 1px solid #A53DFF;
+}
+.add{
+    border-radius: 16px;
+    position: relative;
+}
+.icons{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.icons h1 {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+.pos{
+    position: relative;
+    display: inline-block;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header ul li{
+    display: inline;
+    margin-right: 20px;
+
+
+}
+header{
+    background-color: greenyellow   ;
+    padding: 10px;
+    text-align: center;
+}
+.pets{
+    display: flex;
+    
+    margin-top: 20px;
+}
+.intro{
+    text-align: center;
+    margin: 20px;
+
+}
+.foto{
+    margin-top: 20px;
+ 
+}
+.Lorem{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.birds{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.music{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.location{
+    margin-top: 40px;
+    text-align: center;
+}
+.our{
+    margin: 20px;
+}
