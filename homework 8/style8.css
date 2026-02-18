@@ -55,14 +55,12 @@ header ul li a{
     height: 549px;
    
 }
-.part1{
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px;
+.part1 p{
+    padding-bottom: 20px;    
 }
 .part1 h1{
     font-weight: 700;
-    
+    padding-bottom: 20px;
 }
 .second{
     padding: 60px 0;
@@ -73,4 +71,7 @@ header ul li a{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+}
+.pad{
+    padding-top: 20px;
 }
