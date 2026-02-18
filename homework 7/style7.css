@@ -147,8 +147,20 @@ header p{
   display: inline-block;
   padding: 10px;
   font-size: 20px;
+  color: #A53DFF;
 }
 .pos{
     position: relative;
     display: inline-block;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    transform: scaleX(-1);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+
 }
