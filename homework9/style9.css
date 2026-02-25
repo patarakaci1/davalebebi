@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bck{
+    background-color: black;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+header ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.get{
+    color: white;
+    padding: 8px 15px;
+    border-radius: 23px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+span{
+    color: #64CCC5;
+}
+.label{
+    color: white;
+}
+.brand-imgs{
+    display: flex;
+}
+.label h1{
+    font-size: 64px;
+}
+.right{
+    background-color: black;
+    margin-right: 5px;
+    color: white;
+    padding: 2px;
+    border-radius: 100%;
+    width:28px;
+}
+
+.img4{
+    margin-top:50px;
+}
+.mrgn{
+    margin-top:10px;
+}
+.bckimg{
+    background-image: url(imgs/Rectangle\ 40.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.osh{
+    text-align: center;
+}
+.paad{
+    padding-top:70px
+}
+.card1{
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    padding: 30px;
+    width: 422px;
+    height:350px;
+    color: white;
+
+    width: calc(33.3% - 60px);
+}
+.pencil{
+    background-color: white;
+    display: inline-block;
+    color:black;
+    padding: 20px;
+    border-radius:50%;
+    margin-bottom:60px;
+}
+.pencil1{
+    
+    margin-bottom: 30px;
+}
+.pencil2{
+    font-size: 18px;
+}
+.gp{
+    flex-wrap: wrap;
+    gap:40px;
+}
+.cards{
+    background-color: #F4F4F4;
+    border-radius: 16px;
+    padding: 30px;
+    width:422px;
+    height: 350px;
+    width: calc(33.3% - 60px)
+}
+.icon{
+    background-color: black;
+    color: white;
+    padding:20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+.heading{
+    margin-bottom: 30px;
+}
+.p{
+        font-size: 18px;
+
+}
+.pad2{
+    margin: 30px;
+}
+.size{
+    font-size: 30px;
+}
+.imgs3{
+    position: relative;
+   width: 744px;
+   
+}
+/* section 3 */
+.imgs3 img{
+     position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;    
+  
+  object-fit:cover;
+}
+.img3{
+    transform: translateY(-50%) translate(0px,0px);
+    clip-path: inset(0 50px 0 40px round 20px);
+    width: 640px;
+    border-radius: 20px;
+}
+.img2{
+    transform: translateY(-50%)  translate(-20px,-20px);
+    clip-path: inset(0 50px 0 40px round 20px);
+    width: 640px;
+    border-radius: 20px;
+    filter: brightness(0.5);
+    }
+.img1{
+    clip-path: inset(0 50px 0 40px round 20px);
+     transform: translateY(-50%) translate(-40px,-40px);
+    width: 640px;
+    
+    filter: brightness(0.3);
+    }
+.about{
+    font-size: 30px;
+}
+.pp p{
+    color: white;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+ 
+    .row.pdn {
+        gap: 20px;
+    }
+
+
+    .label h1 {
+        font-size: 42px;
+    }
+
+
+    .card1, .cards {
+        width: calc(50% - 40px);
+        height: auto;
+    }
+
+    .pp {
+        gap: 40px;
+    }
+
+    .imgs3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .imgs3 img {
+        top: 0;
+        height: 100%;
+    }
+
+    .img3 {
+        transform: translate(0px, 0px);
+        clip-path: inset(0 40px 0 30px round 20px);
+    }
+
+    .img2 {
+        transform: translate(-15px, -15px);
+        clip-path: inset(0 40px 0 30px round 20px);
+    }
+
+    .img1 {
+        transform: translate(-30px, -30px);
+        clip-path: inset(0 40px 0 30px round 20px);
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    .row.pdn {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    .row {
+        flex-direction: column;
+    }
+
+    .label h1 {
+        font-size: 28px;
+    }
+
+    .brand-imgs {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .gp {
+        justify-content: center;
+    }
+
+    .card1, .cards {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .pp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgs3 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .imgs3 img {
+        top: 0;
+        height: 100%;
+    }
+
+    .img3 {
+        transform: translate(0px, 0px);
+        clip-path: inset(0 20px 0 15px round 16px);
+        z-index: 3;
+    }
+
+    .img2 {
+        transform: translate(-10px, -10px);
+        clip-path: inset(0 20px 0 15px round 16px);
+        z-index: 2;
+    }
+
+    .img1 {
+        transform: translate(-20px, -20px);
+        clip-path: inset(0 20px 0 15px round 16px);
+        z-index: 1;
+    }
+}
