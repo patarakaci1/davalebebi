@@ -1,0 +1,256 @@
+:root{
+    --family: sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    gap: 20px;
+    padding: 10px  0;
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.shop{
+    font-size: 30px;
+    
+}
+ .find{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 1.1;
+
+}
+.shop-hdr h1{
+ font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+}
+.sign p{
+    text-align: center;
+    padding: 9px;
+    background-color: black;
+    color: white;
+
+}
+.search-wrap{
+    position: relative;
+   
+}
+.search-wrap .smg{
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 40%;
+}
+.search-wrap input{
+    padding: 12px 40px;
+ width: 577px;
+    border: none;
+    background-color: #F0F0F0;
+    border-radius: 63px;
+    opacity: 60%;
+}
+.r-icons{
+    display: flex;
+    gap: 10px;
+
+}
+.r-icons p,.r-icons img{
+    font-size: 24px;
+}
+.main-img{
+    
+    width: 1440px;
+}
+
+
+.inline-1{
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 74px;
+    border:1px;
+    height: 1px;
+    rotate:calc(-90deg);
+    background-color: black; 
+}
+p,span,.inline-1 h1{
+    font-family: var(--family);
+}
+.sec2{
+    background-color: #F2F0F1;
+    position: relative;
+}
+.vec1{
+    position: absolute;
+    width: 100px;
+    left: 83%;
+    top: 20%;
+}
+.vec2{
+ position: absolute;
+ width:  56px;
+ left: 55%;
+ top: 50%;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.shop a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: inline;
+    padding: 16px 60px;
+    border-radius: 62px;
+    font-size: 16px;
+    
+}
+.imgs1{
+    background-color: black;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.imgs1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 40px;
+}
+.imgs1 img{
+    
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+.sec3{
+    background-color: black;
+ 
+}
+.pd{
+    padding:10px 0 0 0;
+}
+.mr{
+    margin:10px 0 0 0;
+}
+/* section 4 -new arrivals */
+
+.products-grid {
+            display: flex;
+            gap: 20px;
+            
+        }
+
+
+.new{
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.card img{
+    width: 260px;
+    border-radius: 20px;
+
+}
+.img1, .img2, .img3, .img4 {
+    width: 290px;
+    background-color:  #F0EEED;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.img2 img, .img3 img, .img4 img{
+    height: 307px;
+}
+.card p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.star{
+    color: #FFC633;
+    
+}
+
+.star.half i{
+   clip-path: inset(0 50% 0 0);
+}
+.stars-rating{
+    display: flex;   
+    align-items: center;
+
+}
+.price-current{
+    font-family: var(--family);    
+    font-size: 25px;
+}
+.price-current2{
+    font-family: var(--family);    
+    font-size: 25px;
+    text-decoration: line-through;
+    color: #A9A9A9;
+    padding-left: 10px
+}
+.sale1{
+    background-color: #FF33331A ;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 6px 14px;
+    border-radius: 62px;
+    color: #FF3333;
+}
+.pdd{
+    padding: 0 40px;
+}
+ .row.cntr{
+    
+    justify-content: center;
+ }
+ .price-tg{
+    display: flex;
+ }
+
+ @media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .products-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-wrap input {
+        width: 100%;
+    } }
