@@ -1,0 +1,223 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: wheat;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    /* headings */
+    .ABC{
+        color: #555;
+        text-align: center;
+        margin-bottom:30px ;
+    }
+    .ABC i{
+        font-size: 23px;
+        margin-right: 4px;
+    }
+
+    .srf{
+        text-align: center;
+    }
+    
+/* box */
+    .box {
+      width: 800px;
+      background: white;
+      border: 3px solid grey;
+      padding: 30px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #1a3bba;
+      margin-bottom: 14px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    /* ── Customer Information ── */
+    .form-grid {
+      display: grid;
+      grid-template-columns: auto 160px auto 120px;
+      align-items: center;
+      row-gap: 10px;
+      column-gap: 10px;
+    }
+
+    .form-grid label {
+      font-size: 12px;
+      color: #000;
+      line-height: 1.3;
+      padding-left: 20px;
+    }
+
+    .form-grid input[type="text"] {
+      height: 22px;
+      border: 1px solid #000;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 4px;
+      width: 100%;
+    }
+
+    /* ── Service Request Details ── */
+    .label-sm {
+      font-size: 12px;
+      color: #000;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    .row {
+      margin-bottom: 10px;
+    }
+
+    .radio-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      color: #000;
+    }
+
+    .radio-group input[type="radio"] {
+      margin: 0;
+      width: 12px;
+      height: 12px;
+    }
+
+    .desc-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .desc-row .desc-label {
+      font-size: 12px;
+      color: #000;
+      line-height: 1.3;
+      min-width: 130px;
+      margin-right: 30px;
+    }
+
+    .desc-row input[type="text"] {
+      flex: 1;
+      height: 28px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 4px;
+    }
+
+    .date-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .date-row .date-label {
+      font-size: 12px;
+      color: #000;
+      min-width: 130px;
+      margin-right: 30px;
+    }
+
+    .date-row input[type="date"] {
+      flex: 1;
+      height: 28px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 6px;
+      color: #555;
+    }
+
+    /* ── Approval ── */
+    .approval-grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: start;
+      gap: 6px 40px;
+    }
+
+    .approval-grid .col-label {
+      font-size: 12px;
+      color: #000;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .approval-grid input[type="text"] {
+      height: 28px;
+      width: 180px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 4px;
+    }
+
+    .approval-grid input[type="date"] {
+      height: 28px;
+      width: 180px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 6px;
+      color: #555;
+    }
+
+    /* ── Service Personnel ── */
+    .personnel-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .personnel-row .p-label {
+      font-size: 12px;
+      color: #000;
+      min-width: 90px;
+    }
+
+    .personnel-row input[type="text"] {
+      height: 24px;
+      width: 160px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 4px;
+    }
+
+    .personnel-row .date-label {
+      font-size: 12px;
+      color: #000;
+      margin-left: 10px;
+    }
+
+    .personnel-row input[type="date"] {
+      height: 24px;
+      width: 150px;
+      border: 1px solid #aaa;
+      background: #fff;
+      outline: none;
+      font-size: 12px;
+      padding: 2px 6px;
+      color: #555;
+    }
